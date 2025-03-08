@@ -1,0 +1,65 @@
+/* Navbar styling */
+.navbar {
+    background-color: #121212; /* Dark background */
+    padding: 15px 20px;
+    border-bottom: 2px solid #00AEEF; /* Neon blue bottom border */
+}
+
+/* Navbar expand styling */
+.navbar-expand-lg {
+    background-color: #121212; /* Ensure dark background for expanded navbar */
+}
+
+/* Navbar brand (logo + text) */
+.navbar-brand {
+    color: #00AEEF !important; /* Neon blue text */
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Navbar links */
+.navbar-nav .nav-link {
+    color: grey !important; /* White text */
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Navbar links hover effect */
+.navbar-nav .nav-link:hover {
+    color: #00AEEF !important; /* Neon blue hover effect */
+}
+
+/* Search bar */
+.form-control {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border: 1px solid #00AEEF;
+}
+
+.form-control::placeholder {
+    color: #bbbbbb;
+}
+
+/* Button styling */
+.btn-outline-success {
+    color: #00AEEF;
+    border-color: #00AEEF;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-outline-success:hover {
+    background-color: #00AEEF;
+    color: #121212;
+}
+
+/* Responsive Tweaks */
+@media (max-width: 992px) {
+    .navbar {
+        text-align: center;
+    }
+
+    .navbar-nav {
+        margin-top: 10px;
+    }
+}
