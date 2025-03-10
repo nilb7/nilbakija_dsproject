@@ -1,16 +1,27 @@
-/* Navbar styling */
+.bg-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
 .navbar {
     background-color: #121212; /* Dark background */
     padding: 15px 20px;
     border-bottom: 2px solid #00AEEF; /* Neon blue bottom border */
 }
 
-/* Navbar expand styling */
+
 .navbar-expand-lg {
     background-color: #121212; /* Ensure dark background for expanded navbar */
 }
 
-/* Navbar brand (logo + text) */
+
 .navbar-brand {
     color: #00AEEF !important; /* Neon blue text */
     font-size: 24px;
@@ -18,29 +29,70 @@
     text-transform: uppercase;
 }
 
-/* Navbar links */
+
 .navbar-nav .nav-link {
     color: grey !important; /* White text */
     font-size: 18px;
     transition: color 0.3s ease-in-out;
 }
 
-/* Navbar links hover effect */
+
 .navbar-nav .nav-link:hover {
     color: #00AEEF !important; /* Neon blue hover effect */
 }
 
-/* Search bar */
-.form-control {
-    background-color: #1e1e1e;
-    color: #ffffff;
-    border: 1px solid #00AEEF;
+
+.nav-item{
+    margin-left: 60px;
 }
 
-.form-control::placeholder {
-    color: #bbbbbb;
+.nav-text{
+    margin-top: 10px;
+    margin-left:100px;
+    color: #00AEEF !important;
+}
+.main_header1{
+    margin-left: 1000px;
+    font-size: 50px;
+    color: #00bbff !important;
+}
+.main_header2{
+    margin-left: 1000px;
+    color: #00bbff !important;
+}
+.btn {
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    color: white;
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 114, 255, 0.3);
+    transition: all 0.3s ease-in-out;
+    margin-left: 1000px;
 }
 
+.btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 14px rgba(0, 114, 255, 0.5);
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+.macbookpro-img{
+    height: 1000px;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+.main_header3{
+    margin-top: 1000px;
+    margin-left: 1000px;
+    font-size: 50px;
+    color: #00bbff !important;
+}
 /* Button styling */
 .btn-outline-success {
     color: #00AEEF;
