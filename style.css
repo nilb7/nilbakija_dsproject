@@ -115,3 +115,23 @@
         margin-top: 10px;
     }
 }
+
+
+
+
+.slide img{
+    margin-bottom: 150px;
+    margin-left: 400px;
+    width: 50%;
+}
+
+.prev, .next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    padding: 20px;
+}
+
+.next{
+    right: 0%;
+} 
