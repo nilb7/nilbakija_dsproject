@@ -8,9 +8,7 @@
     <title>TechHive</title>
 </head>
 <body>
-    
 
-    
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid d-flex justify-content-between align-items-center">
             <!-- Logo dhe Emri i Kompanis  -->
@@ -44,103 +42,28 @@
             </div>
         </div>
     </nav>
-
-    <br><br><br>
-
-    <div class="products-cards">
-    <div class="card" style="width: 18rem;">
-        <img src="./images/iphone16pro.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Iphone 16 Pro</h5>
-          <p class="card-text">Built for Apple Intelligence. Durable titanium design. Camera Control. 4K 120 fps Dolby Vision.</p>
-          <a href="#" class="buttoni1">Go somewhere</a>
+    <br>
+    <br>
+    <br>
+    <div class="container1">
+        <h2>TechHive Inventory Management</h2>
+        <input type="text" id="productName" placeholder="Product Name">
+        <input type="number" id="productPrice" placeholder="Price">
+        <button onclick="addProduct()">Add Product</button>
+        
+        <div class="product-list" id="productList">
+            <h3>Product Inventory</h3>
+            <div id="inventory"></div>
         </div>
-      </div>
-      
-    <div class="card" style="width: 18rem;">
-        <img src="./images/macbookpro1.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">MacBook Pro</h5>
-          <p class="card-text">Discover the MacBook Pro laptop with the M4 family of chips, built for Apple Intelligence.</p>
-          <a href="#" class="buttoni1">Go somewhere</a>
+        
+        <div class="payment-section">
+            <h3>Make a Payment</h3>
+            <button id="payButton">Pay Now</button>
         </div>
-      </div>
-
-      
-    <div class="card" style="width: 18rem;">
-        <img src="./images/ipadpro.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Ipad Pro</h5>
-          <p class="card-text">iPad experience has the most advanced technology.Serious performance in a thin design.</p>
-          <a href="#" class="buttoni1">Go somewhere</a>
-        </div>
-      </div>
-      <br><br><br>
-
-      <div class="card" style="width: 18rem;">
-        <img src="./images/ipadpro.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Ipad Pro</h5>
-          <p class="card-text">iPad experience has the most advanced technology.Serious performance in a thin design.</p>
-          <a href="#" class="buttoni1">Go somewhere</a>
-        </div>
-      </div>
-
-      <div class="card" style="width: 18rem;">
-        <img src="./images/ipadpro.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Ipad Pro</h5>
-          <p class="card-text">iPad experience has the most advanced technology.Serious performance in a thin design.</p>
-          <a href="#" class="buttoni1">Go somewhere</a>
-        </div>
-      </div>
-
-      <div class="card" style="width: 18rem;">
-        <img src="./images/ipadpro.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Ipad Pro</h5>
-          <p class="card-text">iPad experience has the most advanced technology.Serious performance in a thin design.</p>
-          <a href="#" class="buttoni1">Go somewhere</a>
-        </div>
-      </div>
-
-      <div class="card" style="width: 18rem;">
-        <img src="./images/ipadpro.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Ipad Pro</h5>
-          <p class="card-text">iPad experience has the most advanced technology.Serious performance in a thin design.</p>
-          <a href="#" class="buttoni1">Go somewhere</a>
-        </div>
-      </div>
-
-      <div class="card" style="width: 18rem;">
-        <img src="./images/ipadpro.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Ipad Pro</h5>
-          <p class="card-text">iPad experience has the most advanced technology.Serious performance in a thin design.</p>
-          <a href="#" class="buttoni1">Go somewhere</a>
-        </div>
-      </div>
-
-
     </div>
+    
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <div class="footer-dark">
+         <div class="footer-dark">
         <footer>
             <div class="container">
                 <div class="row">
@@ -174,8 +97,9 @@
 
 
 
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="./main.js"></script>
-    
-    </body>
-    </html>
+</body>
+</html>
